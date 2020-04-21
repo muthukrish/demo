@@ -1,14 +1,43 @@
 {
   "Severity": [
      {
-    "Success": true,
-    "Severity": "1,2"
+    "status": "sucess",
+    "Response": [
+        "Severity",
+        [
+            "2",
+            "6",
+            "7"
+        ]
+    ]
 }
   ], 
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
+   "Occurence": [
+     {
+    "status": "sucess",
+    "Response": [
+        "Occurence",
+        [
+            "1",
+            "4",
+            "3"
+        ]
+    ]
+}
+  ], 
+   "Detection": [
+     {
+    "status": "sucess",
+    "Response": [
+        "Detection",
+        [
+            "3",
+            "7",
+            "8"
+        ]
+    ]
+}
+  ], 
   "profileTest": {
     "name": "typicode"
   }
