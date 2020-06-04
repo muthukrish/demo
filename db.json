@@ -41,8 +41,6 @@
   "profileTest": [
     
 
-https://boomiapi.micron.com/ws/rest/sso/product/ProductDataSet?$filter=Product eq '140447' and ClassType eq '001'&$expand=ClassDataSet&$format=json
-
 {
 	"d": {
 		"results": [{
@@ -79,37 +77,7 @@ https://boomiapi.micron.com/ws/rest/sso/product/ProductDataSet?$filter=Product e
 					"CharValueCounter": "001",
 					"Characteristic": "BALL_PITCH_X",
 					"Value": "0.8"
-				}, {
-					"__metadata": {
-						"id": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
-						"uri": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
-						"type": "ZSAAS_PRODUCT_SRV.ClassData"
-					},
-					"Product": "140447",
-					"ClassType": "001",
-					"ClassNum": "0000001611",
-					"ClassName": "AOUT_21322",
-					"ClassGroup": "PLM_HW_SW",
-					"CharNum": "000000000000000000000000000000",
-					"CharValueCounter": "001",
-					"Characteristic": "BALL_PITCH_X_UOM",
-					"Value": "mm"
-				}, {
-					"__metadata": {
-						"id": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
-						"uri": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
-						"type": "ZSAAS_PRODUCT_SRV.ClassData"
-					},
-					"Product": "140447",
-					"ClassType": "001",
-					"ClassNum": "0000001524",
-					"ClassName": "C4C70",
-					"ClassGroup": "PLM",
-					"CharNum": "000000000000000000000000000000",
-					"CharValueCounter": "001",
-					"Characteristic": "WIDTH",
-					"Value": "8.00000"
-				}, {
+				},  {
 					"__metadata": {
 						"id": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
 						"uri": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
