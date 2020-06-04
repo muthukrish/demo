@@ -94,6 +94,54 @@
 					"Characteristic": "BASE_MARKETING_PART",
 					"Value": "MT46H16M32LFB5-6 AIT:C"
 				},
+					    {
+					"__metadata": {
+						"id": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
+						"uri": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
+						"type": "ZSAAS_PRODUCT_SRV.ClassData"
+					},
+					"Product": "140447",
+					"ClassType": "001",
+					"ClassNum": "0000001135",
+					"ClassName": "MATERIAL_REPORTING",
+					"ClassGroup": "SD_MKTG",
+					"CharNum": "000000000000000000000000000000",
+					"CharValueCounter": "001",
+					"Characteristic": "BRAND",
+					"Value": "MICRON"
+				},
+					    {
+					"__metadata": {
+						"id": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
+						"uri": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
+						"type": "ZSAAS_PRODUCT_SRV.ClassData"
+					},
+					"Product": "140447",
+					"ClassType": "001",
+					"ClassNum": "0000001364",
+					"ClassName": "P02_21225",
+					"ClassGroup": "PLM_HW_SW",
+					"CharNum": "000000000000000000000000000000",
+					"CharValueCounter": "001",
+					"Characteristic": "DESIGN_ID",
+					"Value": "T67M"
+				},
+					    {
+					"__metadata": {
+						"id": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
+						"uri": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
+						"type": "ZSAAS_PRODUCT_SRV.ClassData"
+					},
+					"Product": "140447",
+					"ClassType": "001",
+					"ClassNum": "0000000020",
+					"ClassName": "MICRON",
+					"ClassGroup": "SD_MKTG",
+					"CharNum": "000000000000000000000000000000",
+					"CharValueCounter": "001",
+					"Characteristic": "DIE_IN_PACKAGE",
+					"Value": "1"
+				},
 				 {
 					"__metadata": {
 						"id": "https://sappg4wd.micron.com:443/sap/opu/odata/sap/ZSAAS_PRODUCT_SRV/ClassDataSet(Product='140447',ClassType='001')",
