@@ -38,7 +38,7 @@
     ]
 }
   ], 
-  "profileTest": {
+  "profileTest": [
     "name": "typicode"
-  }
+  ]
 }
