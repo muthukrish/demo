@@ -12,7 +12,7 @@
     ]
 }
   ], 
-"FastApiNLP": [
+"FastApiNLP": 
 {
     "status": "sucess",
     "Response": [
@@ -21,8 +21,7 @@
             "Ewqims_ID": "t1"
         }
     ]
-}
-  ],
+},
    "Occurence": [
      {
     "status": "sucess",
