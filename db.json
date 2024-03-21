@@ -22,6 +22,41 @@
         }
     ]
 },
+"MLPlatformApi": {
+  "mlSystemCategory": [
+    {
+      "mL_Category_ID": 2,
+      "mL_Category_Name": "Natural Language Processing",
+      "isActive": true
+    },
+    {
+      "mL_Category_ID": 3,
+      "mL_Category_Name": "Time Series",
+      "isActive": true
+    }
+ 
+  ],
+  "mlSubSystem": [
+    {
+      "oboT_ML_SubCategory_Id": 100,
+      "mL_SubCategory_Code": "NLP_10",
+      "mL_SubCategory_Name": "Text Classification",
+      "mL_SubCategory_Description": "Text Classification",
+      "mL_Category_ID": 2,
+      "isActive": true,
+      "containsModule": true
+    },
+    {
+      "oboT_ML_SubCategory_Id": 101,
+      "mL_SubCategory_Code": "NLP_11",
+      "mL_SubCategory_Name": "Syntactic Check",
+      "mL_SubCategory_Description": "Syntactic Check",
+      "mL_Category_ID": 2,
+      "isActive": true,
+      "containsModule": false
+    }
+  ]
+},
    "Occurence": [
      {
     "status": "sucess",
