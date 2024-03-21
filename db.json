@@ -12,16 +12,6 @@
     ]
 }
   ], 
-"FastApiNLP": 
-{
-    "status": "sucess",
-    "Response": [
-        {
-            "ML_value": 3,
-            "Ewqims_ID": "t1"
-        }
-    ]
-},
 "MLPlatformApi": {
   "mlSystemCategory": [
     {
