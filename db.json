@@ -12,54 +12,49 @@
     ]
 }
   ], 
-  "MLPlatFormAPI": [
-     {
-    "mlSystemCategory": [
-        {
+  "MLPlatFormAPI":   [
+      {
+        "mL_Category_ID": 2,
+        "mL_Category_Name": "Natural Language Processing",
+        "isActive": true,
+        "subCategories": [
+          {
+            "oboT_ML_SubCategory_Id": 100,
+            "mL_SubCategory_Code": "NLP_10",
+            "mL_SubCategory_Name": "Text Classification",
+            "mL_SubCategory_Description": "Text Classification",
             "mL_Category_ID": 2,
-            "mL_Category_Name": "Natural Language Processing",
             "isActive": true,
-            "subCategories": [
-                {
-                    "oboT_ML_SubCategory_Id": 100,
-                    "mL_SubCategory_Code": "NLP_10",
-                    "mL_SubCategory_Name": "Text Classification",
-                    "mL_SubCategory_Description": "Text Classification",
-                    "mL_Category_ID": 2,
-                    "isActive": true,
-                    "containsModule": true
-                },
-                {
-                    "oboT_ML_SubCategory_Id": 105,
-                    "mL_SubCategory_Code": "NLP_15",
-                    "mL_SubCategory_Name": "Document Parsing - MultiLabel Classification (Aspice)",
-                    "mL_SubCategory_Description": "Document Parsing - MultiLabel Classification (Aspice)",
-                    "mL_Category_ID": 2,
-                    "isActive": true,
-                    "containsModule": false
-                }
-            ]
-        },
-        {
+            "containsModule": true
+          },
+          {
+            "oboT_ML_SubCategory_Id": 105,
+            "mL_SubCategory_Code": "NLP_15",
+            "mL_SubCategory_Name": "Document Parsing - MultiLabel Classification (Aspice)",
+            "mL_SubCategory_Description": "Document Parsing - MultiLabel Classification (Aspice)",
+            "mL_Category_ID": 2,
+            "isActive": true,
+            "containsModule": false
+          }
+        ]
+      },
+      {
+        "mL_Category_ID": 3,
+        "mL_Category_Name": "Time Series",
+        "isActive": true,
+        "subCategories": [
+          {
+            "oboT_ML_SubCategory_Id": 106,
+            "mL_SubCategory_Code": "TIME_SERIES_10",
+            "mL_SubCategory_Name": "Time Series",
+            "mL_SubCategory_Description": "Time Series",
             "mL_Category_ID": 3,
-            "mL_Category_Name": "Time Series",
             "isActive": true,
-            "subCategories": [
-                {
-                    "oboT_ML_SubCategory_Id": 106,
-                    "mL_SubCategory_Code": "TIME_SERIES_10",
-                    "mL_SubCategory_Name": "Time Series",
-                    "mL_SubCategory_Description": "Time Series",
-                    "mL_Category_ID": 3,
-                    "isActive": true,
-                    "containsModule": false
-                }
-            ]
-        }
-
-    ]
-}
-  ],
+            "containsModule": false
+          }
+        ]
+      }
+    ],
 	
    "Detection": [
      {
