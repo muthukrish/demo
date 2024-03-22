@@ -60,7 +60,7 @@
     ]
 }
   ],
-   "Occurence":
+   "Occurence":[
      {
     "status": "sucess",
     "Response": [
@@ -71,18 +71,8 @@
             "3"
         ]
     ]
-}, 
-	{
-    "status": "sucess",
-    "Response": [
-        "Occurence",
-        [
-            "1",
-            "4",
-            "3"
-        ]
-    ]
-},
+}], 
+	
    "Detection": [
      {
     "status": "sucess",
