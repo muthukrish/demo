@@ -12,49 +12,235 @@
     ]
 }
   ], 
-  "MLPlatFormAPI":   [
-      {
-        "mL_Category_ID": 2,
-        "mL_Category_Name": "Natural Language Processing",
-        "isActive": true,
-        "subCategories": [
-          {
-            "oboT_ML_SubCategory_Id": 100,
-            "mL_SubCategory_Code": "NLP_10",
-            "mL_SubCategory_Name": "Text Classification",
-            "mL_SubCategory_Description": "Text Classification",
+ 
+    "MLPlatFormAPI": [
+        {
             "mL_Category_ID": 2,
+            "mL_Category_Name": "Natural Language Processing",
             "isActive": true,
-            "containsModule": true
-          },
-          {
-            "oboT_ML_SubCategory_Id": 105,
-            "mL_SubCategory_Code": "NLP_15",
-            "mL_SubCategory_Name": "Document Parsing - MultiLabel Classification (Aspice)",
-            "mL_SubCategory_Description": "Document Parsing - MultiLabel Classification (Aspice)",
-            "mL_Category_ID": 2,
-            "isActive": true,
-            "containsModule": false
-          }
-        ]
-      },
-      {
-        "mL_Category_ID": 3,
-        "mL_Category_Name": "Time Series",
-        "isActive": true,
-        "subCategories": [
-          {
-            "oboT_ML_SubCategory_Id": 106,
-            "mL_SubCategory_Code": "TIME_SERIES_10",
-            "mL_SubCategory_Name": "Time Series",
-            "mL_SubCategory_Description": "Time Series",
+            "subCategories": [
+                {
+                    "oboT_ML_SubCategory_Id": 100,
+                    "mL_SubCategory_Code": "NLP_10",
+                    "mL_SubCategory_Name": "Text Classification",
+                    "mL_SubCategory_Description": "Text Classification",
+                    "mL_Category_ID": 2,
+                    "isActive": true,
+                    "containsModule": true
+                },
+                {
+                    "oboT_ML_SubCategory_Id": 101,
+                    "mL_SubCategory_Code": "NLP_11",
+                    "mL_SubCategory_Name": "Syntactic Check",
+                    "mL_SubCategory_Description": "Syntactic Check",
+                    "mL_Category_ID": 2,
+                    "isActive": true,
+                    "containsModule": false
+                },
+                {
+                    "oboT_ML_SubCategory_Id": 102,
+                    "mL_SubCategory_Code": "NLP_12",
+                    "mL_SubCategory_Name": "Document Parsing",
+                    "mL_SubCategory_Description": "Document Parsing",
+                    "mL_Category_ID": 2,
+                    "isActive": true,
+                    "containsModule": false
+                },
+                {
+                    "oboT_ML_SubCategory_Id": 103,
+                    "mL_SubCategory_Code": "NLP_13",
+                    "mL_SubCategory_Name": "Consistency Check (Aspice)",
+                    "mL_SubCategory_Description": "Consistency Check (Aspice)",
+                    "mL_Category_ID": 2,
+                    "isActive": true,
+                    "containsModule": false
+                },
+                {
+                    "oboT_ML_SubCategory_Id": 104,
+                    "mL_SubCategory_Code": "NLP_14",
+                    "mL_SubCategory_Name": "Text Classification (Aspice)",
+                    "mL_SubCategory_Description": "Text Classification (Aspice)",
+                    "mL_Category_ID": 2,
+                    "isActive": true,
+                    "containsModule": false
+                },
+                {
+                    "oboT_ML_SubCategory_Id": 105,
+                    "mL_SubCategory_Code": "NLP_15",
+                    "mL_SubCategory_Name": "Document Parsing - MultiLabel Classification (Aspice)",
+                    "mL_SubCategory_Description": "Document Parsing - MultiLabel Classification (Aspice)",
+                    "mL_Category_ID": 2,
+                    "isActive": true,
+                    "containsModule": false
+                }
+            ]
+        },
+        {
             "mL_Category_ID": 3,
+            "mL_Category_Name": "Time Series",
             "isActive": true,
-            "containsModule": false
-          }
-        ]
-      }
+            "subCategories": [
+                {
+                    "oboT_ML_SubCategory_Id": 106,
+                    "mL_SubCategory_Code": "TIME_SERIES_10",
+                    "mL_SubCategory_Name": "Time Series",
+                    "mL_SubCategory_Description": "Time Series",
+                    "mL_Category_ID": 3,
+                    "isActive": true,
+                    "containsModule": false
+                }
+            ]
+        },
+        {
+            "mL_Category_ID": 1,
+            "mL_Category_Name": "Recommendation System",
+            "isActive": true,
+            "subCategories": [
+                {
+                    "oboT_ML_SubCategory_Id": 107,
+                    "mL_SubCategory_Code": "RECOMM_10",
+                    "mL_SubCategory_Name": "Recommendation System (Aqua Pro)",
+                    "mL_SubCategory_Description": "Recommendation System (Aqua Pro)",
+                    "mL_Category_ID": 1,
+                    "isActive": true,
+                    "containsModule": false
+                },
+                {
+                    "oboT_ML_SubCategory_Id": 108,
+                    "mL_SubCategory_Code": "RECOMM_11",
+                    "mL_SubCategory_Name": "Recommendation System (Aqua Pro Text Classification)",
+                    "mL_SubCategory_Description": "Recommendation System (Aqua Pro Text Classification)",
+                    "mL_Category_ID": 1,
+                    "isActive": true,
+                    "containsModule": false
+                }
+            ]
+        },
+        {
+            "mL_Category_ID": 4,
+            "mL_Category_Name": "Graphical Solution",
+            "isActive": true,
+            "subCategories": [
+            {
+                "oboT_ML_SubCategory_Id": 109,
+                "mL_SubCategory_Code": "GRAPHIC_SOLUTION_10",
+                "mL_SubCategory_Name": "Graphical Statistical Solution",
+                "mL_SubCategory_Description": "Graphical Statistical Solution",
+                "mL_Category_ID": 4,
+                "isActive": true,
+                "containsModule": false
+            }]
+        },
+        {
+            "mL_Category_ID": 5,
+            "mL_Category_Name": "Image Analysis",
+            "isActive": true,
+            "subCategories":[{
+                "oboT_ML_SubCategory_Id": 110,
+                "mL_SubCategory_Code": "IMG_ANALYS_10",
+                "mL_SubCategory_Name": "Document Parsing & Image Analysis",
+                "mL_SubCategory_Description": "Document Parsing & Image Analysis",
+                "mL_Category_ID": 5,
+                "isActive": true,
+                "containsModule": true
+            },
+            {
+                "oboT_ML_SubCategory_Id": 111,
+                "mL_SubCategory_Code": "IMG_ANALYS_11",
+                "mL_SubCategory_Name": "Document and Image Processing",
+                "mL_SubCategory_Description": "Document and Image Processing",
+                "mL_Category_ID": 5,
+                "isActive": true,
+                "containsModule": true
+            },
+            
+            {
+                "oboT_ML_SubCategory_Id": 114,
+                "mL_SubCategory_Code": "IMG_ANALYSIS_12",
+                "mL_SubCategory_Name": "OCR Data extraction",
+                "mL_SubCategory_Description": "OCR Data extraction",
+                "mL_Category_ID": 5,
+                "isActive": true,
+                "containsModule": false
+            },
+            {
+                "oboT_ML_SubCategory_Id": 115,
+                "mL_SubCategory_Code": "IMG_ANALYSIS_13",
+                "mL_SubCategory_Name": "Image Classification",
+                "mL_SubCategory_Description": "Image Classification",
+                "mL_Category_ID": 5,
+                "isActive": true,
+                "containsModule": false
+            },
+            {
+                "oboT_ML_SubCategory_Id": 116,
+                "mL_SubCategory_Code": "IMG_ANALYSIS_14",
+                "mL_SubCategory_Name": "Image Orientation",
+                "mL_SubCategory_Description": "Image Orientation",
+                "mL_Category_ID": 5,
+                "isActive": true,
+                "containsModule": false
+            },
+            {
+                "oboT_ML_SubCategory_Id": 117,
+                "mL_SubCategory_Code": "IMG_ANALYSIS_15",
+                "mL_SubCategory_Name": "Morphological Operations",
+                "mL_SubCategory_Description": "Morphological Operations",
+                "mL_Category_ID": 5,
+                "isActive": true,
+                "containsModule": false
+            },
+            {
+                "oboT_ML_SubCategory_Id": 118,
+                "mL_SubCategory_Code": "IMG_ANALYSIS_16",
+                "mL_SubCategory_Name": "Image Annotation",
+                "mL_SubCategory_Description": "Image Annotation",
+                "mL_Category_ID": 5,
+                "isActive": true,
+                "containsModule": false
+            },
+            {
+                "oboT_ML_SubCategory_Id": 119,
+                "mL_SubCategory_Code": "IMG_ANALYSIS_17",
+                "mL_SubCategory_Name": "Object Detection",
+                "mL_SubCategory_Description": "Object Detection",
+                "mL_Category_ID": 5,
+                "isActive": true,
+                "containsModule": false
+            }]
+        },
+        {
+            "mL_Category_ID": 6,
+            "mL_Category_Name": "Regression",
+            "isActive": true,
+            "subCategories":[{
+                "oboT_ML_SubCategory_Id": 112,
+                "mL_SubCategory_Code": "REGR_10",
+                "mL_SubCategory_Name": "Prediction",
+                "mL_SubCategory_Description": "Prediction",
+                "mL_Category_ID": 6,
+                "isActive": true,
+                "containsModule": false
+            }
+            ]
+
+        },
+        {
+            "mL_Category_ID": 7,
+            "mL_Category_Name": "ML Classification",
+            "isActive": true,
+            "subCategories":[{
+                "oboT_ML_SubCategory_Id": 113,
+                "mL_SubCategory_Code": "ML_CLASSIFIC_10",
+                "mL_SubCategory_Name": "ML Classification",
+                "mL_SubCategory_Description": "ML Classification",
+                "mL_Category_ID": 7,
+                "isActive": true,
+                "containsModule": false
+            }]
+        }
     ],
+
 	
    "Detection": [
      {
