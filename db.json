@@ -13,6 +13,7 @@
 }
   ], 
  
+    
     "MLPlatFormAPI": [
         {
             "mL_Category_ID": 2,
@@ -37,15 +38,7 @@
                     "isActive": true,
                     "containsModule": false
                 },
-                {
-                    "oboT_ML_SubCategory_Id": 102,
-                    "mL_SubCategory_Code": "NLP_12",
-                    "mL_SubCategory_Name": "Document Parsing",
-                    "mL_SubCategory_Description": "Document Parsing",
-                    "mL_Category_ID": 2,
-                    "isActive": true,
-                    "containsModule": false
-                },
+               
                 {
                     "oboT_ML_SubCategory_Id": 103,
                     "mL_SubCategory_Code": "NLP_13",
@@ -55,15 +48,7 @@
                     "isActive": true,
                     "containsModule": false
                 },
-                {
-                    "oboT_ML_SubCategory_Id": 104,
-                    "mL_SubCategory_Code": "NLP_14",
-                    "mL_SubCategory_Name": "Text Classification (Aspice)",
-                    "mL_SubCategory_Description": "Text Classification (Aspice)",
-                    "mL_Category_ID": 2,
-                    "isActive": true,
-                    "containsModule": false
-                },
+                
                 {
                     "oboT_ML_SubCategory_Id": 105,
                     "mL_SubCategory_Code": "NLP_15",
@@ -153,16 +138,6 @@
                 "isActive": true,
                 "containsModule": true
             },
-            
-            {
-                "oboT_ML_SubCategory_Id": 114,
-                "mL_SubCategory_Code": "IMG_ANALYSIS_12",
-                "mL_SubCategory_Name": "OCR Data extraction",
-                "mL_SubCategory_Description": "OCR Data extraction",
-                "mL_Category_ID": 5,
-                "isActive": true,
-                "containsModule": false
-            },
             {
                 "oboT_ML_SubCategory_Id": 115,
                 "mL_SubCategory_Code": "IMG_ANALYSIS_13",
@@ -173,28 +148,10 @@
                 "containsModule": false
             },
             {
-                "oboT_ML_SubCategory_Id": 116,
-                "mL_SubCategory_Code": "IMG_ANALYSIS_14",
-                "mL_SubCategory_Name": "Image Orientation",
-                "mL_SubCategory_Description": "Image Orientation",
-                "mL_Category_ID": 5,
-                "isActive": true,
-                "containsModule": false
-            },
-            {
                 "oboT_ML_SubCategory_Id": 117,
                 "mL_SubCategory_Code": "IMG_ANALYSIS_15",
                 "mL_SubCategory_Name": "Morphological Operations",
                 "mL_SubCategory_Description": "Morphological Operations",
-                "mL_Category_ID": 5,
-                "isActive": true,
-                "containsModule": false
-            },
-            {
-                "oboT_ML_SubCategory_Id": 118,
-                "mL_SubCategory_Code": "IMG_ANALYSIS_16",
-                "mL_SubCategory_Name": "Image Annotation",
-                "mL_SubCategory_Description": "Image Annotation",
                 "mL_Category_ID": 5,
                 "isActive": true,
                 "containsModule": false
@@ -240,6 +197,7 @@
             }]
         }
     ],
+
 
 	
    "Detection": [
