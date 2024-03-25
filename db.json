@@ -44,7 +44,7 @@
                     "mL_SubCategory_Name": "Consistency Check (Aspice)",
                     "mL_SubCategory_Description": "Consistency Check (Aspice)",
                     "mL_Category_ID": 2,
-                    "isActive": true,
+                    "isActive": false,
                     "containsModule": false
                 },
                 
@@ -54,7 +54,7 @@
                     "mL_SubCategory_Name": "Document Parsing - MultiLabel Classification (Aspice)",
                     "mL_SubCategory_Description": "Document Parsing - MultiLabel Classification (Aspice)",
                     "mL_Category_ID": 2,
-                    "isActive": true,
+                    "isActive": false,
                     "containsModule": false
                 }
             ]
@@ -95,7 +95,7 @@
                     "mL_SubCategory_Name": "Recommendation System (Aqua Pro Text Classification)",
                     "mL_SubCategory_Description": "Recommendation System (Aqua Pro Text Classification)",
                     "mL_Category_ID": 1,
-                    "isActive": true,
+                    "isActive": false,
                     "containsModule": false
                 }
             ]
